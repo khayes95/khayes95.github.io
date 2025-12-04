@@ -1,0 +1,174 @@
+/* Jon Barron Style Academic Website CSS */
+
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Trebuchet MS', 'Bitstream Vera Sans', 'sans-serif';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Links */
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+/* Name styling */
+.name {
+  font-size: 32px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+/* Section headings */
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #333;
+  margin: 0 0 15px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Text emphasis */
+strong {
+  font-weight: bold;
+  color: #222;
+}
+
+/* Paper title styling */
+.papertitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #224b8d;
+}
+
+.papertitle:hover {
+  color: #f09228;
+}
+
+/* Highlight for featured papers */
+tr.highlight {
+  background-color: #ffffd0;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+  padding: 1px 4px;
+}
+
+/* Spotlight badge */
+.spotlight {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+/* Paper image container */
+.paper-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+}
+
+.paper-img-container img {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+/* Table cells */
+td {
+  padding: 10px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 800px) {
+  table {
+    width: 100% !important;
+  }
+  
+  td {
+    display: block;
+    width: 100% !important;
+    padding: 10px 15px;
+  }
+  
+  .paper-img-container {
+    margin-bottom: 15px;
+  }
+  
+  .name {
+    font-size: 26px;
+  }
+}
+
+/* Profile photo */
+img[alt="profile photo"] {
+  border: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph spacing */
+p {
+  margin: 0 0 12px 0;
+}
+
+/* Links in body text */
+td p a {
+  color: #1772d0;
+}
+
+td p a:hover {
+  color: #f09228;
+}
+
+/* Publication links row */
+td > a {
+  margin-right: 5px;
+}
+
+/* Email and social links */
+p[style*="text-align:center"] a {
+  display: inline-block;
+  padding: 2px 0;
+}
+
+/* Experience and Education sections */
+td > p > strong:first-child {
+  color: #1772d0;
+}
+
+/* Footer */
+p[style*="font-size:small"] {
+  color: #999;
+  margin-top: 20px;
+}
+
+p[style*="font-size:small"] a {
+  color: #999;
+}
+
+p[style*="font-size:small"] a:hover {
+  color: #f09228;
+}
