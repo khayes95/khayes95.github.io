@@ -102,8 +102,9 @@
                   <p></p>
                   <p>
                     A model-guided metric for selecting long-context training data, scoring how far tokens
-                    attend to separate cohesive documents from loose concatenations. Prefill-tokens absorb
-                    attention-sink mass, and Borda-count consensus aggregates rankings across scorers.
+                    attend within a document. Prefill-tokens absorb attention-sink mass, and Borda-count
+                    consensus aggregates rankings across scorers. Retraining OLMo-3 on several billion
+                    selected tokens improves long-context performance.
                   </p>
                 </td>
               </tr>
