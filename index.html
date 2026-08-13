@@ -34,9 +34,9 @@
                     in long-context language modeling, pretraining data curation, and agentic workflows.
                   </p>
                   <p>
-                    In Summer 2025, I was a research intern at <a href="https://www.llnl.gov/">Lawrence Livermore National Laboratory</a> 
-                    working on Large Language Diffusion models. Previously, I interned at the Department of Defense where I received 
-                    the Director's Award from the Chief Engineer of Advanced Systems and Technology.
+                    In Summer 2025, I was a research intern at <a href="https://www.llnl.gov/">Lawrence Livermore National Laboratory</a>
+                    working on Large Language Diffusion models. Previously, I interned at a Department of Defense Agency where I received
+                    an Agency Director's Award presented by the Chief Engineer of Advanced Systems and Engineering.
                   </p>
                   <p style="text-align:center">
                     <a href="mailto:khayes1@umd.edu">Email</a> &nbsp;/&nbsp;
@@ -75,6 +75,77 @@
           <!-- Publications -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+
+              <!-- AttentionSpan Paper -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="paper-img-container">
+                    <img src="images/attention_span.png" alt="AttentionSpan" width="160" style="border-style:none">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="#">
+                    <span class="papertitle">Measuring the Attention Span of Long Context Training Data</span>
+                  </a>
+                  <br>
+                  <strong>Kevin David Hayes</strong>,
+                  Gourab Saha,
+                  <a href="https://scholar.google.com/citations?user=YdiZoJgAAAAJ&amp;hl=en">Brian Bartoldson</a>,
+                  <a href="https://www.cs.umd.edu/~tomg/">Tom Goldstein</a>
+                  <br>
+                  <em>arXiv preprint</em>, 2026
+                  <br>
+                  <!-- TODO: fill in arXiv link once posted -->
+                  <!--
+                  <a href="https://arxiv.org/abs/XXXX.XXXXX">arXiv</a>
+                  -->
+                  <p></p>
+                  <p>
+                    A model-guided metric for selecting long-context training data, scoring how far tokens
+                    attend to separate cohesive documents from loose concatenations. Prefill-tokens absorb
+                    attention-sink mass, and Borda-count consensus aggregates rankings across scorers.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Pinocchio Paper -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="paper-img-container">
+                    <img src="images/pinocchio.png" alt="Pinocchio" width="160" style="border-style:none">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="#">
+                    <span class="papertitle">Pinocchio: Estimating the Uncertainty of Black-Box Language Models</span>
+                  </a>
+                  <br>
+                  <strong>Kevin David Hayes</strong>,
+                  <a href="https://www.arkapal.com/">Arka Pal</a>,
+                  Haosong Zhang,
+                  <a href="https://www.cs.umd.edu/~tomg/">Tom Goldstein</a>,
+                  <a href="https://goldblum.github.io/">Micah Goldblum</a>
+                  <br>
+                  <em>COLM</em>, 2026
+                  <br>
+                  <!-- TODO: fill in links once released -->
+                  <!--
+                  <a href="https://arxiv.org/abs/XXXX.XXXXX">arXiv</a>
+                  /
+                  <a href="https://github.com/khayes95/pinocchio">code</a>
+                  /
+                  <a href="https://huggingface.co/KevinDavidHayes/pinocchio">model</a>
+                  /
+                  <a href="https://pypi.org/project/pinocchio/">pypi</a>
+                  -->
+                  <p></p>
+                  <p>
+                    A calibrator that predicts whether a black-box model's response is correct, with no
+                    access to log-probabilities or fine-tuning. Spans 20 benchmarks and 16 models from nine
+                    organizations, including Claude Fable 5, Claude Opus 5, GPT-5.6, and Kimi 3.
+                  </p>
+                </td>
+              </tr>
 
               <!-- FineGRAIN Paper - SPOTLIGHT -->
               <tr class="highlight">
