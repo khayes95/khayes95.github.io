@@ -5,7 +5,7 @@
   <title>Kevin David Hayes</title>
   <meta name="author" content="Kevin David Hayes">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Kevin David Hayes - PhD student at University of Maryland. Research in Large Language Models, Diffusion Models, long-context modeling, and AI for Scientific Discovery.">
+  <meta name="description" content="Kevin David Hayes - PhD student at University of Maryland. Research in language model evaluation, uncertainty, and AI for scientific reasoning and discovery.">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
@@ -26,16 +26,17 @@
                   </p>
                   <p>
                     I'm a PhD student at the <a href="https://umd.edu">University of Maryland</a>,
-                    where I work on machine learning and AI for scientific discovery.
+                    where I work on AI for scientific discovery.
                   </p>
                   <p>
-                    My research focuses on <strong>evaluations and benchmarks</strong>, <strong>scientific reasoning</strong>,
-                    and their applications to materials discovery. I'm particularly interested
-                    in long-context language modeling, pretraining data curation, and agentic workflows.
+                    My research focuses on <strong>evaluations and benchmarks</strong>, <strong>uncertainty and
+                    reliability</strong>, and <strong>scientific reasoning</strong> in language models &mdash; spanning
+                    the data models are trained on, how we measure what they can do, and how they are put to work
+                    for scientific discovery.
                   </p>
                   <p>
                     In Summer 2025, I was a research intern at <a href="https://www.llnl.gov/">Lawrence Livermore National Laboratory</a>
-                    working on Large Language Diffusion models. Previously, I interned at a Department of Defense Agency where I received
+                    working on AI for scientific reasoning. Previously, I interned at a Department of Defense Agency where I received
                     an Agency Director's Award presented by the Chief Engineer of Advanced Systems and Engineering.
                   </p>
                   <p style="text-align:center">
@@ -62,9 +63,9 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <h2>Research</h2>
                   <p>
-                    I'm interested in large language models, diffusion models, retrieval-augmented generation, 
-                    and AI for scientific discovery. My work spans training foundation models at scale, 
-                    developing interpretable AI systems, and applying NLP to materials science and energetics research.
+                    I'm interested in language models, their evaluation, and AI for scientific reasoning
+                    and discovery. My work spans training foundation models at scale, developing interpretable
+                    AI systems, and applying NLP to the sciences.
                     Representative papers are <span class="highlight">highlighted</span>.
                   </p>
                 </td>
@@ -89,7 +90,7 @@
                   </a>
                   <br>
                   <strong>Kevin David Hayes</strong>,
-                  Gourab Saha,
+                  <a href="https://www.cs.umd.edu/people/gsaha567">Gourab Saha</a>,
                   <a href="https://scholar.google.com/citations?user=YdiZoJgAAAAJ&amp;hl=en">Brian Bartoldson</a>,
                   <a href="https://www.cs.umd.edu/~tomg/">Tom Goldstein</a>
                   <br>
@@ -117,7 +118,7 @@
                   </div>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="#">
+                  <a href="https://arxiv.org/abs/2609.24881">
                     <span class="papertitle">Pinocchio: Fast Uncertainty Estimates for Black-Box Language Models</span>
                   </a>
                   <br>
@@ -129,21 +130,14 @@
                   <br>
                   <em>COLM</em>, 2026
                   <br>
-                  <!-- TODO: fill in links once released -->
-                  <!--
-                  <a href="https://arxiv.org/abs/XXXX.XXXXX">arXiv</a>
-                  /
-                  <a href="https://github.com/khayes95/pinocchio">code</a>
-                  /
-                  <a href="https://huggingface.co/KevinDavidHayes/pinocchio">model</a>
-                  /
-                  <a href="https://pypi.org/project/pinocchio/">pypi</a>
-                  -->
+                  <a href="https://arxiv.org/abs/2609.24881">arXiv</a>
+                  <!-- TODO: add code / model / pypi links once public -->
                   <p></p>
                   <p>
-                    A calibrator that estimates the probability a black-box model's response is correct,
-                    with no access to log-probabilities or fine-tuning. Spans 20 benchmarks and 16 models from nine
-                    organizations, including Claude Fable 5, Claude Opus 5, GPT-5.6, and Kimi 3.
+                    An external calibrator that estimates the probability a black-box model's response is
+                    correct, with no access to log-probabilities, logits, weights, or fine-tuning. Trained jointly
+                    on responses from seven LLMs, it reaches 0.862 AUROC on held-out responses and transfers
+                    zero-shot to thirteen unseen models across eight organizations, using a single forward pass.
                   </p>
                 </td>
               </tr>
@@ -349,9 +343,7 @@
                   
                   <p><strong>Computational Research in Science and Technology Lab</strong>, University of Maryland (Sept 2021 – Present)<br>
                   <em>Graduate Research Assistant</em><br>
-                  Finetuned retrieval augmented generation (RAG) systems and sentiment analysis classifiers. 
-                  Created pipeline for journal scraping, preprocessing, named entity recognition, and prompt prediction for energetic materials literature.
-                  Pretrained BERT-style encoder models from scratch with custom corpus.</p>
+                  Research on language models, their evaluation, and AI for scientific discovery.</p>
                   
                   <p><strong>MEMS and Microfluidics Lab</strong>, Fischell Institute for Biomedical Devices, University of Maryland (Sept 2021 – Dec 2021)<br>
                   <em>Research Assistant</em><br>
